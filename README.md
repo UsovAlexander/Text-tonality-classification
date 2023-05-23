@@ -1,7 +1,6 @@
-# Text-tonality-classification
+# Text tonality classification
+The online store is launching a new service. Now users can edit and enhance product descriptions, similar to wiki communities. In other words, customers can suggest edits and comment on changes made by others. The store needs a tool that can detect toxic comments and flag them for moderation.
 
-Интернет-магазин запускает новый сервис. Теперь пользователи могут редактировать и дополнять описания товаров, как в вики-сообществах. То есть клиенты предлагают свои правки и комментируют изменения других. Магазину нужен инструмент, который будет искать токсичные комментарии и отправлять их на модерацию. 
+Please train a model to classify comments as positive or negative. You have a dataset with annotations indicating the toxicity of the edits.
 
-Обучите модель классифицировать комментарии на позитивные и негативные. В вашем распоряжении набор данных с разметкой о токсичности правок.
-
-Постройте модель со значением метрики качества *F1* не меньше 0.75. 
+The goal is to build a model with an F1 quality metric score of at least 0.75.
